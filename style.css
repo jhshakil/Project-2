@@ -1,0 +1,106 @@
+/* ------Font---- */
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Pacifico&display=swap');
+
+/* ---------Common Section----- */
+.container {
+    margin: 5% 5%;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 52px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.font-size-1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.button {
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    width: 135px;
+    border-radius: 20px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.arro {
+    color: white;
+}
+
+/* --------Header Section----- */
+
+header h2 {
+    padding: 2%;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 24px;
+}
+
+/* ------Main Head Section----- */
+
+.head-section {
+    display: flex;
+}
+
+.head-text {
+    width: 60%;
+    padding: 2%;
+}
+
+.par-text {
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.header-image {
+    width: 40%;
+    padding: 2%;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}
+
+/* ------Popular Collection------ */
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+}
+
+.product {
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.product-info {
+    width: 100%;
+}
+
+.product img {
+    width: 100%;
+}
+
+.star-color {
+    color: orange;
+}
+
+.prouduct-text p {
+    font-size: 14px;
+}
