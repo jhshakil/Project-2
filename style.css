@@ -145,6 +145,60 @@ header h2 {
     color: #E02C6D;
 }
 
+/* ---------Subscription Section----- */
+
+.subscribtion {
+    display: flex;
+    align-items: center;
+}
+
+.subs-image {
+    width: 40%;
+    padding: 5%;
+}
+
+.subs-image img {
+    width: 80%;
+}
+
+.subs-content {
+    width: 60%;
+    padding: 5%;
+}
+
+.subs-content p {
+    width: 90%;
+    margin: 5% 0;
+}
+
+.from-section {
+    display: flex;
+    width: 100%;
+}
+
+.mail-section {
+    width: 50%;  
+}
+
+.mail-section input {
+    border-radius: 20px;
+    width: 100%;
+    padding: 1% 7%;
+}
+
+.but-section {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.but-section button {
+    background-color: #E02C6D;
+    padding: 1% 7%;
+    border-radius: 20px;
+    color: white;
+}
+
 /* --------Footer Section-------- */
 
 .footer-container {
@@ -215,6 +269,18 @@ header h2 {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .subscribtion {
+        display: block;
+    }
+
+    .subs-image, .subs-content {
+        width: 100%;
+    }
+
+    .mail-section input {
+        width: 80%;
+    }
+
 }
 
 /* ----------Responsive for Tab--------- */
@@ -250,6 +316,12 @@ header h2 {
 
     .collections {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
+    .mail-section input {
+        width: 80%;
     }
 
 }
