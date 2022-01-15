@@ -1,6 +1,17 @@
 /* ------Font---- */
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Pacifico&display=swap');
 
+/* ----------Animation--------- */
+
+@keyframes animate {
+    from{
+        left: 600px;
+    }
+    to {
+        left: 0;
+    }
+}
+
 /* ---------Common Section----- */
 .container {
     margin: 5% 5%;
@@ -75,6 +86,12 @@ header h2 {
     padding: 2%;
     background-image: url(images/Circle\ design.svg);
     background-repeat: no-repeat;
+}
+
+.header-image img {
+    /* left: 600px; */
+    position: relative;
+    animation: animate 2s ease 0s 1;
 }
 
 /* ------Popular Collection------ */
