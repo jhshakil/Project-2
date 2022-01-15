@@ -4,6 +4,7 @@
 /* ---------Common Section----- */
 .container {
     margin: 5% 5%;
+    min-height: auto;
 }
 
 h1 {
@@ -15,6 +16,7 @@ h1 {
 h2 {
     font-size: 28px;
     font-family: 'Mochiy Pop P One', sans-serif;
+    margin: 0;
 }
 
 .font-size-1 {
@@ -23,6 +25,7 @@ h2 {
 
 p {
     font-size: 16px;
+    margin: 0;
 }
 
 .button {
@@ -79,14 +82,19 @@ header h2 {
 .collections {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 5%;
-    grid-row-gap: 5%;
+    grid-gap: 30px 30px;
+}
+
+.popular-collection h2 {
+    margin: 40px 0;
+    text-align: center;
 }
 
 .product {
-    border: 1px solid red;
+    box-shadow: 5px 5px 50px 1px #AAAAAA;
     border-radius: 10px;
     padding: 5%;
+
 }
 
 .product-info {
@@ -103,4 +111,48 @@ header h2 {
 
 .prouduct-text p {
     font-size: 14px;
+}
+
+.see-more {
+    margin: 50px 0;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.button-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-style a {
+    text-decoration: none;
+    color: #E02C6D;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.arro-style {
+    color: #E02C6D;
+}
+
+/* --------Footer Section-------- */
+
+.footer-container {
+    background-color: #0A0826;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.align-content {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.icon-gap {
+    margin: 0 10px;
 }
