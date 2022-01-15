@@ -89,6 +89,7 @@ header h2 {
 }
 
 .header-image img {
+
     position: relative;
     animation: animate 2s ease 0s 1;
 }
