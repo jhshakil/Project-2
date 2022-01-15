@@ -89,7 +89,6 @@ header h2 {
 }
 
 .header-image img {
-    /* left: 600px; */
     position: relative;
     animation: animate 2s ease 0s 1;
 }
@@ -334,8 +333,6 @@ header h2 {
     .collections {
         grid-template-columns: repeat(2, 1fr);
     }
-
-
 
     .mail-section input {
         width: 80%;
