@@ -109,6 +109,10 @@ header h2 {
     width: 100%;
 }
 
+.star {
+    margin: 10px 0;
+}
+
 .star-color {
     color: orange;
 }
