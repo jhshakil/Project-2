@@ -85,8 +85,12 @@ header h2 {
     grid-gap: 30px 30px;
 }
 
-.popular-collection h2 {
-    margin: 40px 0;
+.product-info h2 {
+    margin: 20px 0;
+}
+
+.popular-collection>h2 {
+    margin: 5% 0;
     text-align: center;
 }
 
@@ -151,8 +155,97 @@ header h2 {
     display: flex;
     justify-content: center;
     margin: 10px;
+    text-align: center;
 }
 
 .icon-gap {
     margin: 0 10px;
+}
+
+/* --------Responsive for Mobile------ */
+
+@media only screen and (max-width: 767px) {
+
+    header h2 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .head-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .head-text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .header-image {
+        width: 80%;
+        background-size: 80%;
+        background-position: center;
+    }
+
+    .header-image img {
+        width: 60%;
+        margin: 20%;
+    }
+
+    .popular-collection>h2 {
+        margin: 5% 0;
+        text-align: center;
+    }
+
+    .product-info h2 {
+        font-size: 16px;
+    }
+
+    .collections {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+/* ----------Responsive for Tab--------- */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    header h2 {
+        text-align: center;
+    }
+
+    .head-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .head-text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-image {
+        width: 100%;
+        background-size: 80%;
+        background-position: center;
+    }
+
+    .header-image img {
+        width: 60%;
+        margin: 20%;
+    }
+
+    .collections {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
